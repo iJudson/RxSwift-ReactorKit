@@ -1,16 +1,28 @@
 PODS:
+  - Kingfisher (3.10.2)
+  - ReactorKit (0.6.0):
+    - RxSwift (>= 3.0.0)
   - RxCocoa (3.6.1):
     - RxSwift (~> 3.6)
+  - RxDataSources (1.0.4):
+    - RxCocoa (~> 3.0)
+    - RxSwift (~> 3.0)
   - RxSwift (3.6.1)
 
 DEPENDENCIES:
+  - Kingfisher (= 3.10.2)
+  - ReactorKit
   - RxCocoa (= 3.6.1)
+  - RxDataSources (= 1.0.4)
   - RxSwift (= 3.6.1)
 
 SPEC CHECKSUMS:
+  Kingfisher: 7297492bf8cec9b2e2dee3519f2219948580d98e
+  ReactorKit: d979377df0ff393cb0ed4df9c2b31b2edd8dca08
   RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
+  RxDataSources: b3389acc5fe2eefb8fcd81a2b76a876ad08bc82a
   RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
 
-PODFILE CHECKSUM: c6e15725ace8582d5bad323ce464e1ed632a2339
+PODFILE CHECKSUM: 8b3720e937cd0030452a71e8093bb341172cef7d
 
 COCOAPODS: 1.2.1

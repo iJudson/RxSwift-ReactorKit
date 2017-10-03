@@ -50,6 +50,10 @@ final class MenuViewController: UIViewController {
         let profileNav = UIStoryboard.NavigationController.profile
         topViewControllers = [homeNav, mediumNav, broadcastNav, groupNav, profileNav]
         
+        if let homeViewController = homeNav.viewControllers.first as? HomeViewController {
+            homeViewController.reactor = HomePageReactor()
+        }
+        
         // 初始化时，默认选中首页
         self.addChildViewController(homeNav)
         homeNav.view.frame = self.view.bounds
